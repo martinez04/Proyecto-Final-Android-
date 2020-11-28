@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.categorias.Categoria" android:background="#C2EFEB">
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_idcategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#7F8485">
+        <EditText
+                android:id="@+id/et_idcategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:drawableStart="@drawable/ic_guardar"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="* Id Categorias"
+                android:inputType="number"
+                android:paddingLeft="1dp"
+                android:textColor="#03168B"
+                android:textSize="14dp" android:background="#594B4B" android:drawableLeft="@drawable/ic_guardar"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_namecategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#7F8485">
+        <EditText
+                android:id="@+id/et_namecategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:drawableStart="@drawable/ic_editar"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="* Nombre de Categoria"
+                android:inputType="text"
+                android:paddingLeft="1dp"
+                android:textColor="#03168B"
+                android:textSize="14dp" android:background="#594B4B" android:drawableLeft="@drawable/ic_editar"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+            android:id="@+id/sp_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="#084689"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/sp"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+    />
+    <!-- android:entries="@array/estadoCategorias"-->
+    <LinearLayout
+            android:id="@+id/Ln1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#7F8485"
+    >
+        <Button
+                android:id="@+id/btnSave"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Guardar"
+                android:textColor="#7F8485"
+                android:background="#390C37"
+        />
+        <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"/>
+
+        <Button
+                android:id="@+id/btnNew"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#390C37"
+                android:text="Nueva"
+                android:textColor="#F8FEFF"/>
+        <!--
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/chovi3"
+            android:text="Editar"
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eliminar"
+            android:textColor="@color/white"
+            android:background="@color/chovi3"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buscar"
+            android:textColor="@color/white"
+            android:background="@color/chovi3"
+            />
+        -->
+    </LinearLayout>
+
+</FrameLayout>
