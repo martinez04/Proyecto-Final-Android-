@@ -1,4 +1,4 @@
-package com.mjgl.demomysql2020;
+package com.example.proyectofinalandroid.ui.usuario;
 
 import android.content.Context;
 import android.graphics.Bitmap;
