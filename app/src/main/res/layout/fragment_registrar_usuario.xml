@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.usuario.RegistrarUsuario">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:background="#FFFFFF">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="#884747">
+
+            <!-- TODO: Update blank fragment layout -->
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_idusuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#B9B7BC">
+                <EditText
+                        android:id="@+id/et_idusuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_autor"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Id usuario"
+                        android:inputType="number"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5" android:drawableLeft="@drawable/ic_autor"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#B9B7BC">
+                <EditText
+                        android:id="@+id/et_nombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_editar"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Nombre de usuario"
+                        android:inputType="text"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5"
+                        android:drawableLeft="@drawable/ic_editar"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_apellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#B9B7BC1">
+                <EditText
+                        android:id="@+id/et_apellidos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_ingresar"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Apellidos"
+                        android:inputType="number"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5"
+                        android:drawableLeft="@drawable/ic_ingresar"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#B9B7BC">
+                <EditText
+                        android:id="@+id/et_correo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_id"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Correo"
+                        android:inputType="number"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5" android:drawableLeft="@drawable/ic_id"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_usuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#B9B7BC">
+                <EditText
+                        android:id="@+id/et_usuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_autor"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Usuario"
+                        android:inputType="number"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5" android:drawableLeft="@drawable/ic_autor"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_clave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#B9B7BC">
+                <EditText
+                        android:id="@+id/et_clave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_retornar"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Clave"
+                        android:inputType="textPassword"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5"
+                        android:drawableLeft="@drawable/ic_retornar"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Spinner
+                    android:id="@+id/sp_tipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/tipoUsuario"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColorHint="@color/colorPrimary"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/sp"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            />
+
+            <!-- android:entries="@array/estadoCategorias"-->
+            <Spinner
+                    android:id="@+id/sp_estadoUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColorHint="@color/blue"
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/estadoUsuario"
+                    android:background="@drawable/sp"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            />
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_pregunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#76747A">
+                <EditText
+                        android:id="@+id/et_pregunta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Pegunta"
+                        android:inputType="text"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_respuesta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#76747A">
+                <EditText
+                        android:id="@+id/et_respuesta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:drawableStart="@drawable/ic_guardar"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="* Respuesta"
+                        android:inputType="text"
+                        android:paddingLeft="1dp"
+                        android:textColor="#03168B"
+                        android:textSize="14dp" android:background="#F1F6F5"
+                        android:drawableLeft="@drawable/ic_guardar"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                    android:id="@+id/tv_fechahora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="yyyy-MM-dd HH:mm:ss"
+                    android:background="#FFFFFF"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="#76747A">
+
+                <Button
+                        android:id="@+id/btnSave"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Guardar"
+                        android:textColor="#FFFFFF"
+                        android:background="#1C5A75"
+                />
+
+                <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"/>
+
+                <Button
+                        android:id="@+id/btnNew"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nuevo Usuario"
+                        android:textColor="#F1F1F1"
+                        android:background="#1C5A75"
+                />
+
+            </LinearLayout>
+
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+            />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
